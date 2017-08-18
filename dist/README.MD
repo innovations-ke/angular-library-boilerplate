@@ -50,7 +50,7 @@ Once your library is imported, you can use its components, directives and pipes 
 <h1>
   {{title}}
 </h1>
-<sampleComponent></sampleComponent>
+<sample-component></sample-component>
 ```
 
 ## Development
@@ -66,6 +66,9 @@ To lint all `*.ts` files:
 ```bash
 $ npm run lint
 ```
+
+## Reference
+Follow here if you want to create you own library from scratch: https://github.com/jvandemo/generator-angular2-library
 
 ## License
 
