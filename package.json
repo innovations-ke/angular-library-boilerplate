@@ -26,6 +26,7 @@
   "bugs": {
     "url": "https://github.com/innovations-ke/angular-library-boilerplate.git/issues"
   },
+  "main": "dist/index.js",
   "devDependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
