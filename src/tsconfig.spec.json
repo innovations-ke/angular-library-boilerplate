@@ -9,7 +9,11 @@
     "baseUrl": "",
     "types": [
       "jest",
-      "node"
+      "node",
+      "jasmine"
+    ],
+    "typeRoots": [
+      "../node_modules/@types"
     ]
   },
   "files": [
