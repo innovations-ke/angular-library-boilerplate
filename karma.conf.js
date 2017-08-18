@@ -21,6 +21,9 @@ module.exports = function (config) {
       angularCli: {
         environment: 'dev'
       },
+      files: [
+        'src/**/*.spec.*'
+      ],
       reporters: ['progress', 'kjhtml'],
       port: 9876,
       colors: true,
