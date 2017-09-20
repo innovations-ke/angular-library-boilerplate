@@ -1,0 +1,28 @@
+{
+  "name": "angular-library-boilerplate",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/innovations-ke/angular-library-boilerplate.git"
+  },
+  "author": {
+    "name": "innovations-ke",
+    "email": "innovations.ke@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/innovations-ke/angular-library-boilerplate.git/issues"
+  },
+  "main": "angular-library-boilerplate.umd.js",
+  "module": "angular-library-boilerplate.js",
+  "jsnext:main": "angular-library-boilerplate.js",
+  "typings": "angular-library-boilerplate.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
