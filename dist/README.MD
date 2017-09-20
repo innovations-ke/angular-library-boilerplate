@@ -1,11 +1,11 @@
-# angular-library-boilerplate
+# innovations-ke-angular-library-boilerplate
 
 ## Installation
 
 To install this library, run:
 
 ```bash
-$ npm install angular-library-boilerplate --save
+$ npm install innovations-ke-angular-library-boilerplate --save
 ```
 
 ## Consuming your library
@@ -13,7 +13,7 @@ $ npm install angular-library-boilerplate --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install angular-library-boilerplate
+$ npm install innovations-ke-angular-library-boilerplate
 ```
 
 and then from your Angular `AppModule`:
@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'angular-library-boilerplate';
+import { SampleModule } from 'innovations-ke-angular-library-boilerplate';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { SampleModule } from 'angular-library-boilerplate';
     BrowserModule,
 
     // Specify your library as an import
-    SampleModule
+    LibraryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -50,7 +50,7 @@ Once your library is imported, you can use its components, directives and pipes 
 <h1>
   {{title}}
 </h1>
-<sample-component></sample-component>
+<sampleComponent></sampleComponent>
 ```
 
 ## Development
@@ -67,9 +67,6 @@ To lint all `*.ts` files:
 $ npm run lint
 ```
 
-## Reference
-Follow here if you want to create you own library from scratch: https://github.com/jvandemo/generator-angular2-library
-
 ## License
 
-MIT © [innovations.ke](mailto:innovations.ke@gmail.com)
+MIT © [innovations-ke](mailto:innovations.ke@gmail.com)

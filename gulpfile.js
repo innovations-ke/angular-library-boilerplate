@@ -131,7 +131,7 @@ gulp.task('rollup:umd', function () {
       // The name to use for the module for UMD/IIFE bundles
       // (required for bundles with exports)
       // See "name" in https://rollupjs.org/#core-functionality
-      name: 'angular-library-boilerplate',
+      name: 'innovations-ke-angular-library-boilerplate',
 
       // See "globals" in https://rollupjs.org/#core-functionality
       globals: {
@@ -139,7 +139,7 @@ gulp.task('rollup:umd', function () {
       }
 
     }))
-    .pipe(rename('angular-library-boilerplate.umd.js'))
+    .pipe(rename('innovations-ke-angular-library-boilerplate.umd.js'))
     .pipe(gulp.dest(distFolder));
 });
 

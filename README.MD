@@ -1,11 +1,11 @@
-# angular-library-boilerplate
+# innovations-ke-angular-library-boilerplate
 
 ## Installation
 
 To install this library, run:
 
 ```bash
-$ npm install angular-library-boilerplate --save
+$ npm install innovations-ke-angular-library-boilerplate --save
 ```
 
 ## Consuming your library
@@ -13,7 +13,7 @@ $ npm install angular-library-boilerplate --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install angular-library-boilerplate
+$ npm install innovations-ke-angular-library-boilerplate
 ```
 
 and then from your Angular `AppModule`:
@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'angular-library-boilerplate';
+import { SampleModule } from 'innovations-ke-angular-library-boilerplate';
 
 @NgModule({
   declarations: [
