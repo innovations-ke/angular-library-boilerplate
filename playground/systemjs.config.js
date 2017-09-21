@@ -27,7 +27,7 @@
       // other libraries
       rxjs: 'npm:rxjs',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
-      'innovations-ke-angular-library-boilerplate': '../dist'
+      'angular-library-boilerplate': '../dist'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -42,8 +42,8 @@
       rxjs: {
         defaultExtension: 'js'
       },
-      'innovations-ke-angular-library-boilerplate': {
-        main: 'innovations-ke-angular-library-boilerplate.umd.js',
+      'angular-library-boilerplate': {
+        main: 'angular-library-boilerplate.umd.js',
         defaultExtension: 'js'
       }
     }
