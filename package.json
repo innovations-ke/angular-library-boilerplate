@@ -1,11 +1,11 @@
 {
-  "name": "angular-library-boilerplate",
-  "version": "0.1.4",
+  "name": "innovations-ke-angular-library-boilerplate",
+  "version": "0.1.0",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n angular-library-boilerplate -d docs --hideGenerator",
+    "docs:build": "compodoc -p tsconfig.json -n innovations-ke-angular-library-boilerplate -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
@@ -37,7 +37,7 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@compodoc/compodoc": "^1.0.0-beta.10",
-    "@types/jasmine": "2.5.38",
+    "@types/jasmine": "^2.5.38",
     "@types/node": "~6.0.60",
     "angular-in-memory-web-api": "^0.3.2",
     "codelyzer": "~2.0.0",

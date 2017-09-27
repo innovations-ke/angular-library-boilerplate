@@ -21,8 +21,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "angular-library-boilerplate.js",
-    "flatModuleId": "angular-library-boilerplate"
+    "flatModuleOutFile": "innovations-ke-angular-library-boilerplate.js",
+    "flatModuleId": "innovations-ke-angular-library-boilerplate"
   },
   "files": [
     "./index.ts"
