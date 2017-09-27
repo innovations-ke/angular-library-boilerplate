@@ -1,5 +1,5 @@
 {
-  "name": "innovations-ke-angular-library-boilerplate",
+  "name": "angular-library-boilerplate",
   "version": "0.1.0",
   "repository": {
     "type": "git",
@@ -16,10 +16,10 @@
   "bugs": {
     "url": "https://github.com/innovations-ke/angular-library-boilerplate.git/issues"
   },
-  "main": "innovations-ke-angular-library-boilerplate.umd.js",
-  "module": "innovations-ke-angular-library-boilerplate.js",
-  "jsnext:main": "innovations-ke-angular-library-boilerplate.js",
-  "typings": "innovations-ke-angular-library-boilerplate.d.ts",
+  "main": "angular-library-boilerplate.umd.js",
+  "module": "angular-library-boilerplate.js",
+  "jsnext:main": "angular-library-boilerplate.js",
+  "typings": "angular-library-boilerplate.d.ts",
   "peerDependencies": {
     "@angular/core": "^4.0.0",
     "rxjs": "^5.1.0",
